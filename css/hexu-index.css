@@ -150,7 +150,7 @@ nav .nav li.active a>p {
 @media (max-width: 992px){
     .contain_show .container .con-box1 .title .title-text{
         text-align:center;
-        margin-left:0;
+        margin-left:0px;
     }
 }
 
