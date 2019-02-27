@@ -1,0 +1,333 @@
+/*导航栏开始*/
+nav.navbar {
+    z-index: 99;
+    height: 100px;
+
+    margin-bottom: 0;
+}
+
+nav.navbar-inverse {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+nav .container {
+    padding: 0;
+}
+
+nav .container .navbar-header {
+    margin: 0;
+}
+
+nav .container .navbar-header .navbar-toggle {
+    margin: 0;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+nav .navbar-brand {
+    display: inline-block;
+    width: 60px;
+    height: 100px;
+    padding: 0;
+    margin-left: 0 !important;
+}
+
+@media(max-width: 768px) {
+    nav .navbar-brand {
+        margin-left: 10px !important;
+    }
+}
+
+nav .navbar-brand img {
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+nav .nav {
+    margin: 0;
+    padding-right: 0 !important;
+}
+
+nav .nav li {
+    text-align: center;
+    padding: 0 35px;
+}
+
+@media (max-width: 768px) {
+    nav .nav {
+        width: 100%;
+        margin-left: 0 !important;
+        background: #000000;
+    }
+
+    nav .nav li {
+        width: 100%;
+    }
+}
+
+nav .nav li a {
+    padding: 0;
+    background: transparent !important;
+}
+
+nav .nav li.active a>p {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 4px;
+    background: #bc1b1b;
+    margin: 0;
+}
+
+/*导航栏结束*/
+
+/*轮播图*/
+.carousel {
+    width: 100%;
+    margin-top: -100px;
+    margin-bottom: 100px;
+}
+
+
+.contain_show {
+    height: 473px;
+    margin-bottom: 100px;
+}
+
+.contain_show .container {
+    height: 100%;
+    padding: 0;
+}
+
+.contain_show .container .con_box {
+    width: 95.83%;
+    height: 100%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    box-shadow: #ccc 0px 0px 10px;
+}
+
+.contain_show .container .con_box .image-box {
+    height: 100%;
+    padding: 0;
+}
+
+.contain_show .container .con_box .image-box img {
+    width: 100%;
+    height: 100%;
+}
+
+.contain_show .container .con_box .text-box {
+    padding: 0;
+}
+
+.contain_show .container .con_box .text-box .text {
+    width: 93.5%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+.contain_show .container .con_box .text-box .text-title {
+    width: 100%;
+    height: 74px;
+}
+
+.contain_show .container .con_box .text-box .text-title .title {
+    float: left;
+    font-size: 24px;
+    font-family: 微软雅黑 Regular;
+    color: #bc1b1b;
+    height: 100%;
+    line-height: 75px;
+}
+
+.contain_show .container .con_box .text-box .text-title .more {
+    float: right;
+    font-size: 12px;
+    font-family: 微软雅黑 Regular;
+    color: #999999;
+    height: 100%;
+    line-height: 75px;
+}
+
+
+.contain_show .container .con_box .text-box .text-title-border {
+    width: 100%;
+    height: 1px;
+    background: url(../img/heci/container/border_dashed.png) center/cover no-repeat;
+}
+
+.contain_show .container .con_box .text-box .text ul {
+    width: 100%;
+    padding: 17px 0 17px 10px;
+
+}
+
+.contain_show .container .con_box .text-box .text ul li {
+    width: 100%;
+    padding: 17px 0;
+    padding-left: 16px;
+    line-height: 15px;
+    background: url(../img/heci/container/dot.jpg) 0 20px no-repeat;
+
+}
+
+.contain_show .container .con_box .text-box .text ul li a {
+    font-size: 14px;
+}
+
+.contain_show .container .con_box .text-box .text ul li .time {
+    float: right;
+    color: #999999;
+}
+
+
+/*分页器开始*/
+.pagination-box {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.pagination-box .container {
+    text-align: center;
+    float: none;
+    padding: 0;
+}
+
+.pagination-box .container ul {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.pagination-box .container ul li {
+    width: 60px;
+    height: 6px;
+    background: #e6e6e6;
+    float: left;
+    margin: 0 30px;
+}
+
+.pagination-box .container ul li.active {
+    background: #bc1b1b;
+}
+
+.pagination-box .container ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/*分页器结束*/
+
+
+/*底部开始*/
+.footer {
+    width: 100%;
+    height: 340px;
+    background: #202020;
+    padding-top: 80px;
+}
+
+.footer .container {
+    height: 100%;
+    padding: 0;
+    
+}
+
+.footer .container .footer-contain {
+    width: 95.83%;
+    height: 50px;
+    margin: 0 auto;
+    
+}
+
+.footer .container .footer-contain .img-contract {
+    width: 220px;
+    height: 100%;
+    float: left;
+}
+
+.footer .container .footer-contain .img-contract img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer .container .footer-contain p {
+    width: 275px;
+    height: 100%;
+    float: right;
+    margin-left: 60px;
+    font-size: 24px;
+    color: #f3f3f3;
+}
+
+.footer .container .footer-hidden {
+    display: none;
+    width: 100%;
+    margin-top:40px;
+}
+
+.footer .container .footer-hidden p {
+    width: 100%;
+    color: #fff;
+    font-size: 14px;
+    text-align:center;
+}
+
+.footer .container .footer-middle {
+    width: 95.83%;
+    height: 20px;
+    margin: 25px auto 0;
+    text-align: right;
+}
+
+.footer .container .footer-middle span {
+	float:right;
+    font-size: 14px;
+    color: #707070;
+    margin-right: 10px;
+    margin-left: 60px;
+
+}
+
+.footer .container .footer-middle2 span {
+    margin-right: 70px;
+}
+
+.footer .container .footer-bottom {
+    width: 95.83%;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.footer .container .footer-bottom span {
+    font-size: 14px;
+    color: #707070;
+}
+
+
+@media(max-width: 992px) {
+    .footer .container .footer-contain > p {
+        display: none;
+    }
+
+    .footer .container .footer-middle{
+        display: none;
+    }
+
+    .footer .container .footer-bottom{
+    	display: none;
+    }
+
+    .footer .container .footer-hidden {
+        display: block;
+    }
+
+}
+
+
+/*底部结束*/
