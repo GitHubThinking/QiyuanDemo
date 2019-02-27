@@ -14,246 +14,170 @@
 </head>
 
 <body>
-    <!-- 头部header开始 -->
-    <nav class="navbar navbar-inverse navbar-static-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#"><img src="img/heci/nav/nav_logo.png" alt=""></a>
-            </div>
-            <div class="collapse navbar-collapse row" id="bs-example-navbar-collapse-1" style="text-align: center;">
-                <ul class="nav navbar-nav col-lg-7 col-md-9 col-sm-9 row" style="display: inline-block;float: none;margin-left:-60px;">
-                    <li class="active col-lg-3 col-md-3 col-sm-3"><a href="#"><img src="img/heci/nav/nav_white_1.png" alt=""> <span class="sr-only">(current)</span>
-                            <p></p>
-                        </a>
-                    </li>
-                    <li class="col-lg-3 col-md-3 col-sm-3"><a href="#"><img src="img/heci/nav/nav_gray_2.png" alt=""></a></li>
-                    <li class="col-lg-3 col-md-3 col-sm-3"><a href="#"><img src="img/heci/nav/nav_gray_3.png" alt=""></a></li>
-                    <li class="col-lg-3 col-md-3 col-sm-3"><a href="#"><img src="img/heci/nav/nav_gray_2.png" alt=""></a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!-- 头部header结束 -->
-    <!-- 内容部分开始 -->
-    <!-- 巨幅图片  轮播图-->
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-        <!-- 修改图中的轮播点 -->
-        <ol class="carousel-indicators">
-            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-        </ol>
-        <!-- 修改轮播图的图片 -->
-        <div class="carousel-inner" role="listbox">
-            <div class="item active">
-                <img src="img/heci/container/banner.png" alt="">
-                <div class="carousel-caption">
+    <div container-fluid>
+        <!-- 头部header开始 -->
+        <nav class="navbar navbar-inverse navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img src="img/heci/nav/nav_logo.png" alt=""></a>
+                </div>
+                <div class="collapse navbar-collapse row" id="bs-example-navbar-collapse-1" style="text-align: center;">
+                    <ul class="nav navbar-nav col-lg-7 col-md-9 col-sm-9 row" style="display: inline-block;float: none;margin-left:-60px;">
+                        <li class="active col-lg-3 col-md-3 col-sm-3"><a href="#"><img src="img/heci/nav/nav_white_1.png" alt=""> <span class="sr-only">(current)</span>
+                                <p></p>
+                            </a>
+                        </li>
+                        <li class="col-lg-3 col-md-3 col-sm-3"><a href="#"><img src="img/heci/nav/nav_gray_2.png" alt=""></a></li>
+                        <li class="col-lg-3 col-md-3 col-sm-3"><a href="#"><img src="img/heci/nav/nav_gray_3.png" alt=""></a></li>
+                        <li class="col-lg-3 col-md-3 col-sm-3"><a href="#"><img src="img/heci/nav/nav_gray_2.png" alt=""></a></li>
+                    </ul>
                 </div>
             </div>
-            <div class="item">
-                <img src="img/heci/container/banner.png" alt="">
-                <div class="carousel-caption">
+        </nav>
+        <!-- 头部header结束 -->
+        <!-- 内容部分开始 -->
+        <!-- 巨幅图片  轮播图-->
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- 修改图中的轮播点 -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            </ol>
+            <!-- 修改轮播图的图片 -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="img/hexu/container/banner.jpg" alt="">
+                    <div class="carousel-caption">
+                    </div>
                 </div>
-            </div>
-        </div>
-        <!-- Controls -->
-        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
-    <!-- 巨幅图片  轮播图结束-->
-    <!-- 详情页面开始 -->
-    <!-- 第一部分 -->
-    <div class="contain_show">
-        <div class="container">
-            <!-- 第一个内容栏 -->
-            <div class="con_box row">
-                <!-- 内容栏中的图片 -->
-                <div class=" image-box col-lg-5 col-md-5 hidden-sm hidden-xs">
-                    <img src="img/heci/container/image1.jpg" alt="">
-                </div>
-                <!-- 内容栏中的标题和各个小标题 -->
-                <div class=" text-box col-lg-7 col-md-7 col-sm-12 col-xs-12">
-                    <div class="text">
-                        <div class="text-title">
-                            <p class="title">SAR并行化</p>
-                            <p class="more">更多</p>
-                        </div>
-                        <p class="text-title-border"></p>
-                        <ul class="list-unstyle">
-                            <li><a href="" class="text-con">SAR并行成像处理的研究</a>
-                                <p class="time">12-27</p>
-                            </li>
-                            <li><a href="" class="text-con">SAR并行成像处理的研究</a>
-                                <p class="time">12-27</p>
-                            </li>
-                            <li><a href="" class="text-con">SAR并行成像处理的研究</a>
-                                <p class="time">12-27</p>
-                            </li>
-                            <li><a href="" class="text-con">SAR并行成像处理的研究</a>
-                                <p class="time">12-27</p>
-                            </li>
-                            <li><a href="" class="text-con">SAR并行成像处理的研究</a>
-                                <p class="time">12-27</p>
-                            </li>
-                            <li><a href="" class="text-con">SAR并行成像处理的研究</a>
-                                <p class="time">12-27</p>
-                            </li>
-                            <li><a href="" class="text-con">SAR并行成像处理的研究</a>
-                                <p class="time">12-27</p>
-                            </li>
-                        </ul>
+                <div class="item">
+                    <img src="img/hexu/container/banner.jpg" alt="">
+                    <div class="carousel-caption">
                     </div>
                 </div>
             </div>
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
-    </div>
-    <!-- 第二部分 -->
-    <div class="contain_show">
-        <div class="container">
-            <!-- 第一个内容栏 -->
-            <div class="con_box row">
-                <!-- 内容栏中的图片 -->
-                <div class=" image-box col-lg-5 col-md-5 hidden-sm hidden-xs">
-                    <img src="img/heci/container/image1.jpg" alt="">
-                </div>
-                <!-- 内容栏中的标题和各个小标题 -->
-                <div class=" text-box col-lg-7 col-md-7 col-sm-12 col-xs-12">
-                    <div class="text">
-                        <div class="text-title">
-                            <p class="title">SAR并行化</p>
-                            <p class="more">更多</p>
-                        </div>
-                        <p class="text-title-border"></p>
-                        <ul class="list-unstyle">
-                            <li><a href="" class="text-con">SAR并行成像处理的研究</a>
-                                <p class="time">12-27</p>
-                            </li>
-                            <li><a href="" class="text-con">SAR并行成像处理的研究</a>
-                                <p class="time">12-27</p>
-                            </li>
-                            <li><a href="" class="text-con">SAR并行成像处理的研究</a>
-                                <p class="time">12-27</p>
-                            </li>
-                            <li><a href="" class="text-con">SAR并行成像处理的研究</a>
-                                <p class="time">12-27</p>
-                            </li>
-                            <li><a href="" class="text-con">SAR并行成像处理的研究</a>
-                                <p class="time">12-27</p>
-                            </li>
-                            <li><a href="" class="text-con">SAR并行成像处理的研究</a>
-                                <p class="time">12-27</p>
-                            </li>
-                            <li><a href="" class="text-con">SAR并行成像处理的研究</a>
-                                <p class="time">12-27</p>
-                            </li>
-                        </ul>
+        <!-- 巨幅图片  轮播图结束-->
+        <!-- 详情页面开始 -->
+        <!-- 第一部分 -->
+        <div class="contain_show">
+            <div class="container">
+                <div class="con-box1">
+                    <div class="title row">
+                        <div class="title-col col-lg-3 col-md-4 hidden-sm hidden-xs">
+                            <div class="title-img1"></div>
+                            <div class="title-img2"></div>
+                        </div>                     
+                        <div class="title-text col-lg-6 col-md-8 col-sm-12 col-xs-12"><span>国内领先的基础软件系统解决方案供应商</span></div>
+                    </div>
+                    <div class="introduction">
+                        <p>南京起源信息技术有限公司成立于2018年3月，总部设立于南京，是一家由创业板上市公司创始人联合高校、行业专家创办的软件企业。公司目前已建立一支50余人的团队，平均年龄不到28岁，主要成员为行业专家、业内精英，以及优秀的高校毕业生。</p>
+                    </div>
+                    <div class="con-image">
+                        <img src="img/hexu/container/con1.jpg" alt="">
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-    <!-- 第三部分 -->
-    <div class="contain_show">
-        <div class="container">
-            <!-- 第一个内容栏 -->
-            <div class="con_box row">
-                <!-- 内容栏中的图片 -->
-                <div class=" image-box col-lg-5 col-md-5 hidden-sm hidden-xs">
-                    <img src="img/heci/container/image1.jpg" alt="">
-                </div>
-                <!-- 内容栏中的标题和各个小标题 -->
-                <div class=" text-box col-lg-7 col-md-7 col-sm-12 col-xs-12">
-                    <div class="text">
-                        <div class="text-title">
-                            <p class="title">SAR并行化</p>
-                            <p class="more">更多</p>
-                        </div>
-                        <p class="text-title-border"></p>
-                        <ul class="list-unstyle">
-                            <li><a href="" class="text-con">SAR并行成像处理的研究</a>
-                                <p class="time">12-27</p>
-                            </li>
-                            <li><a href="" class="text-con">SAR并行成像处理的研究</a>
-                                <p class="time">12-27</p>
-                            </li>
-                            <li><a href="" class="text-con">SAR并行成像处理的研究</a>
-                                <p class="time">12-27</p>
-                            </li>
-                            <li><a href="" class="text-con">SAR并行成像处理的研究</a>
-                                <p class="time">12-27</p>
-                            </li>
-                            <li><a href="" class="text-con">SAR并行成像处理的研究</a>
-                                <p class="time">12-27</p>
-                            </li>
-                            <li><a href="" class="text-con">SAR并行成像处理的研究</a>
-                                <p class="time">12-27</p>
-                            </li>
-                            <li><a href="" class="text-con">SAR并行成像处理的研究</a>
-                                <p class="time">12-27</p>
-                            </li>
-                        </ul>
+
+                <div class="con-box2">
+                    <p class="title">团队目标</p>
+                    <p class="title-text">起源信息团队当前目标是开发具有完全自主知识产权的分布式协同航电系统软硬件支撑架构，并围绕“一机多能、多机协同”条件下的云作战模式，建立一套完整的作战理念演示和软硬件技术测试环境，并形成行业规范。团队最终建设开放架构软件综合集成平台，并在此平台基础上呈现LVC交互式仿真及训练系统、自适应网络及国产化计算环境平台、软件无线电和雷达模拟系统等多个软件产品。</p>
+                    <div class="con-image">
+                        <img src="img/hexu/container/con2.jpg" alt="">
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-    <!-- 详情页面结束 -->
-    <!-- 分页器开始 -->
-    <div class="pagination-box">
-        <div class="container">
-            <ul class="clearfix">
-                <li class="active"><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-            </ul>
-        </div>
-    </div>
-    <!-- 分页器结束 -->
-    <!-- 内容部分结束 -->
-    <!-- 底部footer开始 -->
-    <div class="footer">
-        <div class="container">
-            <div class="footer-contain">
-                <div class="img-contract">
-                    <img src="img/heci/container/button.jpg" alt="">
+
+                <div class="con-box2">
+                    <p class="title">战略合作</p>
+                    <p class="title-text">起源信息团队在军工行业内有近二十年的市场积累，与航空、航天、船舶、电子领域的核心客户建立了合作关系。自成立以来，公司的技术能力和产品前景得到行业内的高度评价，依托多年市场资源沉淀，迅速与航空工业、航天科技、中船重工、中电科等各大集团的科研院所达成战略合作。</p>
+                    <div class="con-image row">
+                        <div class="col col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <img src="img/hexu/container/company1.jpg" alt="">
+                        </div>
+                        <div class="col col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <img src="img/hexu/container/company2.jpg" alt="">
+                        </div>
+                        <div class="col col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <img src="img/hexu/container/company3.jpg" alt="">
+                        </div>
+                        <div class="col col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <img src="img/hexu/container/company4.jpg" alt="">
+                        </div>
+                        <div class="col col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <img src="img/hexu/container/company5.jpg" alt="">
+                        </div>
+                        <div class="col col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <img src="img/hexu/container/company6.jpg" alt="">
+                        </div>
+                        <div class="col col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <img src="img/hexu/container/company7.jpg" alt="">
+                        </div>
+                        <div class="col col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <img src="img/hexu/container/company8.jpg" alt="">
+                        </div>                  
+                    </div>
                 </div>
-                <p>联络</p>
-                <p>采访</p>
+                
+                <div class="con-box2">
+                    <p class="title">企业愿景</p>
+                    <p class="title-text">起源信息作为国内领先的基础软件系统解决方案供应商，致力于成为新时期军民融合典范企业，解决军工行业数据互通、仿真与战场态势呈现，以及人工智能技术在武器装备研制中的运用等重大国防战略问题，为提升我国国防科技国际竞争力贡献绵薄之力。</p>
+                    <div class="con-image">
+                        <img src="img/hexu/container/con3.jpg" alt="">
+                    </div>
+                </div>
+
             </div>
-            <div class="footer-middle">
-                <span>南京：雨花台区软件谷花神大道23号7栋4层</span>
-                <span>电话：025-888888888 或 18888888888</span>
-            </div>
-            <div class="footer-middle footer-middle2">
-                <span>邮箱：nanjingqiyuan@163.com</span>
-            </div>
-            <div class="footer-bottom">
-                <span>CopyRight@：南京起源信息技术有限公司ㅇ</span>
-                <span>备案序号：苏ICP备10229876号</span>
-            </div>
-            <div class="footer-hidden">
-                <p>南京：雨花台区软件谷花神大道23号7栋4层</p>
-                <p>电话：025-888888888 或 18888888888</p>
-                <p>邮箱：nanjingqiyuan@163.com</p>
-                <p style="margin-top:20px;">
+        </div>
+        <!-- 详情页面结束 -->
+        <!-- 内容部分结束 -->
+        <!-- 底部footer开始 -->
+        <div class="footer">
+            <div class="container">
+                <div class="footer-contain">
+                    <div class="img-contract">
+                        <img src="img/heci/container/button.jpg" alt="">
+                    </div>
+                    <p>联络</p>
+                    <p>采访</p>
+                </div>
+                <div class="footer-middle">
+                    <span>南京：雨花台区软件谷花神大道23号7栋4层</span>
+                    <span>电话：025-888888888 或 18888888888</span>
+                </div>
+                <div class="footer-middle footer-middle2">
+                    <span>邮箱：nanjingqiyuan@163.com</span>
+                </div>
+                <div class="footer-bottom">
                     <span>CopyRight@：南京起源信息技术有限公司ㅇ</span>
                     <span>备案序号：苏ICP备10229876号</span>
-                </p>
+                </div>
+                <div class="footer-hidden">
+                    <p>南京：雨花台区软件谷花神大道23号7栋4层</p>
+                    <p>电话：025-888888888 或 18888888888</p>
+                    <p>邮箱：nanjingqiyuan@163.com</p>
+                    <p style="margin-top:20px;">
+                        <span>CopyRight@：南京起源信息技术有限公司ㅇ</span>
+                        <span>备案序号：苏ICP备10229876号</span>
+                    </p>
+                </div>
             </div>
         </div>
+        <!-- 底部footer结束 -->
     </div>
-    <!-- 底部footer结束 -->
 </body>
 
 </html>
