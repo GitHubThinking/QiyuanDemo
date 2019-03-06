@@ -188,38 +188,22 @@ nav .nav li.active a>p {
 
 /*分页器开始*/
 .pagination-box {
+    position: relative;
     width: 100%;
     margin-bottom: 100px;
+    border:1px solid transparent;
 }
 
-.pagination-box .container {
-    text-align: center;
-    float: none;
+.pagination-box .pagination {
+    position:absolute;
+    left:50%;
+    width:200px;
     padding: 0;
+    margin:0;
+    margin-left:-100px;
+
 }
 
-.pagination-box .container ul {
-    display: inline-block;
-    margin: 0 auto;
-}
-
-.pagination-box .container ul li {
-    width: 60px;
-    height: 6px;
-    background: #e6e6e6;
-    float: left;
-    margin: 0 30px;
-}
-
-.pagination-box .container ul li.active {
-    background: #bc1b1b;
-}
-
-.pagination-box .container ul li a {
-    display: block;
-    width: 100%;
-    height: 100%;
-}
 
 /*分页器结束*/
 
